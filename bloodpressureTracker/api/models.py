@@ -8,7 +8,6 @@ class User(AbstractUser):
 
     def __repr__(self):
         return f'<User username={self.username} pk={self.pk}>'
-# Create your models here.
 
 
 class Reading(models.Model):
