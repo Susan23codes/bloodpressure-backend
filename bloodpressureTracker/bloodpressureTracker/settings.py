@@ -102,7 +102,7 @@ WSGI_APPLICATION = 'bloodpressureTracker.wsgi.application'
 #     'default': dj_database_url.config(default=env('DATABASE_URL'), conn_max_age=600)
 # }
 DATABASES = {
-		default: env.db()
+		'default': env.db()
 	}
 
 REST_FRAMEWORK = {
